@@ -1,0 +1,81 @@
+body {
+    margin: 10px;
+}
+
+#navbarNav {
+    position: relative;
+    margin-left: 600px;
+}
+
+.nav-link {
+    font-size: 25px;
+    color: darkblue;
+    margin: 10px;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    color: darkblue;
+    position: relative;
+    left: 150px;
+}
+
+.search-area input {
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.search-area {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#search-btn {
+    background-color: tomato;
+    color: white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+#meals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+    margin-top: 40px;
+}
+
+#meals img {
+    width: 100%;
+    height: 350px;
+    border-radius: 50px;
+}
+
+.meal {
+    box-shadow: 10px 20px 15px gray;
+    border-radius: 20px;
+}
+
+.notFound {
+    font-size: 40px;
+    color: tomato;
+    grid-template-columns: 1fr !important;
+    width: 100%;
+    margin-left: 400px;
+}
+#details-meal{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#details-meal img{
+    width: 30%;
+    height: 350px;
+    border-radius: 50px;
+}
+.content{
+    text-align: left;
+    margin-left: 500px;
+    color: rgb(192, 76, 56);
+}
